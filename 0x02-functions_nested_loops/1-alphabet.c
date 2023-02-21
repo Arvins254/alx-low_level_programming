@@ -4,12 +4,12 @@
  *
  * Return Always 0
  */
-void print_alphabet(void)
+int main(void)
 {
 	int alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z'; ch++)
-		putchar(ch);
-	putchar('\n')
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		putchar(alphabet);
+	putchar('\n');
 	return (0);
 }
