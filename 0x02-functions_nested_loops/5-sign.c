@@ -1,13 +1,8 @@
 #include "main.h"
 /**
- * print_sign - Entry point
- *
- * Description: prints the sign of a number.
- *
+ * print_sign - Prints the sign of a number
  * @n: the number its sign to be printed
- * Return 1 if  no. is > 0
- * return 0 if no. is = 0
- * return -1 if no. is <0
+ * Return: 1 if positive, -1 if negatve OR 0 for nothing else
  */
 int print_sign(int n)
 {
@@ -23,7 +18,8 @@ int print_sign(int n)
 	}
 	else
 	{
-		_puchar('-');
+		_putchar('-');
 		return (-1);
 	}
 }
+
