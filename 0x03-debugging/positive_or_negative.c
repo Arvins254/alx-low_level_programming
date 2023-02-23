@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include "main.h"
 /* more headers goes there */
 /**
  * main - Entry point
  *
  * Return: Returns zero
  */
-int main(void)
+void positive_or_negative(int n)
 {
         int n;
 
