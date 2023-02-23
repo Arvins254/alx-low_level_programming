@@ -30,3 +30,12 @@ void fizz_buzz(void)
 	}
 	putchar(10);
 }
+/**
+ * main - entry point
+ * Return: returns void
+ */
+int main(void)
+{
+	fizz_buzz();
+	return (0);
+}
