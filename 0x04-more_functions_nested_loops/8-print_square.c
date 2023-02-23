@@ -1,8 +1,7 @@
 #include "main.h"
-void insert_spaces(int k);
 /**
- * print_diagonal - draws a diagonal line on the terminal
- * @n: an integer
+ * print_square - prints a square
+ * @size: an integer
  * Return: returns void
  */
 void print_square(int size)
@@ -27,3 +26,4 @@ void print_square(int size)
 		}
 	}
 }
+
