@@ -3,20 +3,30 @@
 /**
  * print_number - prints an integer
  * @n: integer to be printed
- * Return: Nothing!
+ * Return: Nothing to return.
  */
 void print_number(int n)
 {
-	unsigned int k = n;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
-		n *= -1;
-		_putchar('-');
+		_putchar(45);
+		m = n * -1;
 	}
-	k /= 10;
-	if (k != 0)
-		print_number(k);
-	_putchar((unsigned int) n % 10 + '0');
+	else
+	{
+		m = n;
+	}
+	d = m;
+	count = 1;
+	while (d > 9)
+	{
+		d /= 10;
+		count *= 10;
+	}
+	for (; count >= 1; count /= 10)
+	{
+		_putchar(((m / count) % 10) + 48);
+	}
 }
-
