@@ -26,3 +26,31 @@ void print_triangle(int size)
 		}
 	}
 }
+/**
+ * insert_spaces - insert empty spaces
+ * @l: an integer
+ * Return: returns void
+ */
+void insert_spaces(int k)
+{
+	int j;
+
+	for (j = 0; j < k; j++)
+	{
+		_putchar(' ');
+	}
+}
+/**
+ * insert_tags - insert hash tags
+ * @l: an integer
+ * Return: returns void
+ */
+void insert_tags(int l)
+{
+	int tag;
+
+	for (tag = 0; tag < l; tag++)
+	{
+		_putchar('#');
+	}
+}
