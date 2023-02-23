@@ -28,7 +28,7 @@ void print_triangle(int size)
 }
 /**
  * insert_spaces - insert empty spaces
- * @l: an integer
+ * @k: an integer
  * Return: returns void
  */
 void insert_spaces(int k)
