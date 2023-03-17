@@ -12,5 +12,9 @@ int main(void)
 	printf("%s, %s\n", s0, s1);
 	set_string(&s1, s0);
 	printf("%s, %s\n", s0, s1);
+<<<<<<< HEAD
 		return (0);
+=======
+	return (0);
+>>>>>>> 6af03b7934bd064920a5be8a0a205c8e5489e55a
 }
